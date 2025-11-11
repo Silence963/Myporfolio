@@ -1,5 +1,5 @@
 import { motion } from 'framer-motion'
-import { Mail, Github, Linkedin } from 'lucide-react'
+import { Mail, Github, Linkedin, Phone } from 'lucide-react'
 
 const socialLinks = [
   {
@@ -7,6 +7,13 @@ const socialLinks = [
     icon: Mail,
     href: 'mailto:akhilar@example.com',
     color: 'text-neon-blue',
+  },
+  {
+    name: 'Phone',
+    icon: Phone,
+    href: 'tel:+918139881888',
+    color: 'text-green-400',
+    display: '8139881888',
   },
   {
     name: 'GitHub',
@@ -42,7 +49,7 @@ export const Contact = () => {
             opportunities to be part of your vision.
           </p>
 
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
             {socialLinks.map((link, index) => (
               <motion.a
                 key={link.name}
@@ -56,7 +63,7 @@ export const Contact = () => {
                 className="glass-card p-6 flex flex-col items-center gap-4 hover:bg-white/5 transition-colors"
               >
                 <link.icon className={`w-8 h-8 ${link.color}`} />
-                <span className="text-gray-300">{link.name}</span>
+                <span className="text-gray-300">{link.display || link.name}</span>
               </motion.a>
             ))}
           </div>

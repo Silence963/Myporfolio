@@ -3,47 +3,59 @@ import { motion } from 'framer-motion'
 const technicalSkills = [
   {
     category: 'Programming Languages',
-    items: ['JavaScript', 'Python', 'PHP', 'HTML', 'CSS'],
+    items: ['JavaScript', 'TypeScript', 'Python', 'PHP', 'Java', 'HTML', 'CSS'],
   },
   {
     category: 'Frameworks & Libraries',
-    items: ['Flask', 'FastAPI', 'LangChain', 'LangGraph', 'Node.js', 'Express.js', 'React (CRA, Vite)'],
+    items: ['Flask', 'FastAPI', 'LangChain', 'LangGraph', 'Node.js', 'Express.js', 'React (CRA, Vite)', 'Django', 'Sequelize', 'Material-UI'],
   },
   {
     category: 'Frontend Technologies',
-    items: ['React.js', 'HTML5', 'CSS3', 'JavaScript (ES6+)', 'Responsive Design'],
+    items: ['React.js', 'TypeScript', 'HTML5', 'CSS3', 'JavaScript (ES6+)', 'Responsive Design', 'Vite', 'Material-UI', 'Framer Motion', 'Tailwind CSS'],
   },
   {
     category: 'Backend Technologies',
-    items: ['Node.js', 'Express.js', 'Django', 'PHP'],
+    items: ['Node.js', 'Express.js', 'FastAPI', 'Django', 'PHP', 'RESTful APIs', 'Async Processing', 'API Integration'],
   },
   {
     category: 'Databases & Vector Stores',
-    items: ['SQL', 'Firebase (Basic)', 'Qdrant', 'Pinecone (Familiar)', 'JSON-based Data Stores', 'MongoDB', 'MySQL'],
+    items: ['SQL', 'MySQL', 'MongoDB', 'Firebase (Basic)', 'Qdrant', 'Pinecone (Familiar)', 'JSON-based Data Stores', 'Sequelize ORM', 'Database Optimization'],
   },
   {
     category: 'Machine Learning & AI',
-    items: ['Random Forest', 'Decision Tree', 'Linear Regression', 'ML Algorithms', 'Retrieval-Augmented Generation (RAG)', 'Prompt Engineering', 'LangChain Agents', 'Model Context Protocol (MCP)', 'LLM Integration (OpenAI, Gemini, Groq)', 'Whisper ASR', 'HuggingFace Transformers', 'MediaPipe'],
+    items: ['Random Forest', 'Decision Tree', 'Linear Regression', 'ML Algorithms', 'Retrieval-Augmented Generation (RAG)', 'Prompt Engineering', 'LangChain Agents', 'Model Context Protocol (MCP)', 'LLM Integration (OpenAI, Gemini, Groq, Claude, DeepSeek)', 'Whisper ASR', 'HuggingFace Transformers', 'MediaPipe', 'Multi-LLM Orchestration', 'LLaMA 3', 'Ollama API', 'AI-Powered Analysis', 'Sentiment Analysis'],
+  },
+  {
+    category: 'NLP & Text Processing',
+    items: ['spaCy', 'Natural (sentiment)', 'NLP', 'Entity Extraction', 'Text Summarization', 'Content Classification', 'Fuzzy Matching', 'Plagiarism Detection', 'Grammar Analysis', 'language_tool_python'],
   },
   {
     category: 'Speech & Multimodal Processing',
-    items: ['Whisper (ASR)', 'Deepgram STT/TTS', 'Google TTS', 'ElevenLabs', 'Piper TTS', 'Gemini Vision', 'Tesseract OCR'],
+    items: ['Whisper (ASR)', 'Deepgram STT/TTS', 'Google TTS', 'ElevenLabs', 'Piper TTS', 'Gemini Vision', 'Tesseract OCR', 'Web Speech API', 'Voice Recognition'],
+  },
+  {
+    category: 'Web Scraping & Automation',
+    items: ['Selenium', 'Puppeteer', 'BeautifulSoup', 'ChromeDriver', 'WebDriver Manager', 'Data Extraction', 'Automated Testing', 'Browser Automation'],
   },
   {
     category: 'Data Analysis & Visualization',
-    items: ['Pandas', 'NumPy', 'Tableau', 'Power BI', 'Advanced Excel'],
+    items: ['Pandas', 'NumPy', 'Tableau', 'Power BI', 'Advanced Excel', 'Data Processing', 'Analytics', 'Trend Analysis'],
+  },
+  {
+    category: 'Document Processing & Generation',
+    items: ['PDFKit', 'PyPDF2', 'PDF Export', 'Report Generation', 'File Upload (Multer)', 'Document Analysis', 'Content Extraction'],
   },
   {
     category: 'Development Tools',
-    items: ['Git', 'Android Studio', 'Eclipse', 'VS Code', 'Cursor', 'Windsurf', 'Replit', 'GitHub Copilot', 'Bolt.new'],
+    items: ['Git', 'Android Studio', 'Eclipse', 'VS Code', 'Cursor', 'Windsurf', 'Replit', 'GitHub Copilot', 'Bolt.new', 'dotenv', 'Web Vitals', 'Performance Monitoring'],
   },
   {
     category: 'Authentication & Security',
-    items: ['JWT', 'Sessions', 'Encryption', 'Cybersecurity Best Practices'],
+    items: ['JWT', 'Sessions', 'Encryption', 'Cybersecurity Best Practices', 'Input Validation', 'Secure API Design', 'CORS', 'Authentication Systems'],
   },
   {
     category: 'Other Skills',
-    items: ['RESTful APIs', 'Version Control (Git)', 'Agile Development', 'Problem Solving'],
+    items: ['RESTful APIs', 'Version Control (Git)', 'Agile Development', 'Problem Solving', 'Caching Strategies', 'API Key Management', 'Error Handling', 'Async/Await', 'Real-time Updates', 'Polling Systems', 'Multi-context Support', 'Fallback Logic'],
   },
 ]
 

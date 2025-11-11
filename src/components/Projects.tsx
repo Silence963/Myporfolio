@@ -3,7 +3,7 @@ import { Github } from 'lucide-react'
 
 const projects = [
   {
-    title: 'URL Shortener Application',
+    title: 'URL Shortener ',
     description: 'A user-friendly URL shortener with robust user management and data handling. Features include user signup/authentication, URL management, search functionality, and secure editing/deleting of URLs.',
     image: `${import.meta.env.BASE_URL}assets/images/url-shortener.jpg`,
     tags: ['React.js', 'Node.js', 'Express.js', 'MongoDB', 'JWT', 'Sessions'],
@@ -11,7 +11,7 @@ const projects = [
     date: '2024'
   },
   {
-    title: 'BusinessAI Platform',
+    title: 'Business Intelligence',
     description: 'AI-powered business intelligence web app (React + Node.js + MySQL) that generates Vendor Analysis, Industry Reports, and Trends Analysis. Integrates Groq, OpenAI, and Gemini LLMs with dynamic API key management, caching, structured JSON reports, and PDF export. Features vendor verification, auto-loading categories by city, trend extraction, multi-business profiling, and executive-style formatting. Built for fast, data-driven decision support with extensible architecture and professional UX.',
     image: `${import.meta.env.BASE_URL}assets/images/business-ai.jpg`,
     tags: ['React', 'Node.js', 'MySQL', 'Groq', 'OpenAI', 'Gemini', 'PDF Export', 'LLM', 'Business Intelligence'],
@@ -68,7 +68,7 @@ const projects = [
     },
       {
         title: 'COMPA ',
-        description: 'Backend service that tracks competitor social media audience growth by scraping follower counts (Facebook, Instagram, LinkedIn) and storing normalized metrics in MySQL. Provides REST endpoints for competitor management, follower aggregation, resilient scraping (K/M parsing, retries, timing controls), and is prepared for optional multi-LLM integration via configurable environment keys.',
+    description: `Compa is a Node.js/Express backend that tracks and compares competitor social media audience growth by scraping follower counts (Facebook, Instagram, LinkedIn) and storing them in MySQL. It provides REST APIs for competitor management, metric retrieval, and automated scraping jobs with resilient parsing and normalization.\n\nTech: Node.js, Express, MySQL, Selenium, ChromeDriver, dotenv, cors.\n\nFeatures: Automated follower extraction, competitor registration, clean versioned API, and optional AI integration endpoints.\n\nA robust backend for social media competitor analytics and automated data comparison.`,
         image: `${import.meta.env.BASE_URL}assets/images/compa.jpg`,
         tags: ['Node.js', 'Express', 'MySQL', 'Selenium', 'ChromeDriver', 'dotenv', 'cors', 'LLM Ready'],
         github: '',

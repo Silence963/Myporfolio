@@ -54,10 +54,34 @@ export const About = () => {
               transition={{ delay: 0.2, duration: 0.8 }}
               className="text-gray-300 mb-6"
             >
-              I'm an aspiring Full Stack MERN Developer with a Master of Computer Applications from Jain University, 
-              Bangalore (2024) and a B.Sc from Kerala University (2020). My journey in tech is driven by a passion for 
-              creating innovative web applications and exploring the exciting intersection of web development with Machine 
-              Learning and Artificial Intelligence.
+              I'm a Full Stack MERN Developer specializing in AI-powered web applications, with a Master's in <b>Computer 
+              Applications</b> from Jain University, Bangalore (2024) and <b> B.Sc in Physics With Computer Application </b> from Kerala University (2020). My expertise 
+              lies at the intersection of modern web development, artificial intelligence, and data-driven solutions, 
+              creating intelligent applications that solve real-world business challenges.
+            </motion.p>
+
+            <motion.p
+              initial={{ opacity: 0 }}
+              whileInView={{ opacity: 1 }}
+              viewport={{ once: true }}
+              transition={{ delay: 0.25, duration: 0.8 }}
+              className="text-gray-300 mb-6"
+            >
+              <b>Currently working as Intern Software Developer at Myblocks, Ernakulam</b> (joined June 2025), where I contribute to innovative software solutions and collaborate with a dynamic team to deliver impactful products.
+            </motion.p>
+
+            <motion.p
+              initial={{ opacity: 0 }}
+              whileInView={{ opacity: 1 }}
+              viewport={{ once: true }}
+              transition={{ delay: 0.3, duration: 0.8 }}
+              className="text-gray-300 mb-6"
+            >
+              Through hands-on experience from my internship at Myblocks and numerous projects, I've developed 
+              comprehensive expertise in building enterprise-grade applications. My work spans AI-powered business 
+              intelligence platforms integrating multiple LLMs (OpenAI, Gemini, Groq, Claude), intelligent data 
+              processing systems with NLP and sentiment analysis, and scalable full-stack solutions handling real-time 
+              data processing and complex user workflows.
             </motion.p>
 
             <motion.p
@@ -65,12 +89,26 @@ export const About = () => {
               whileInView={{ opacity: 1 }}
               viewport={{ once: true }}
               transition={{ delay: 0.4, duration: 0.8 }}
+              className="text-gray-300 mb-6"
+            >
+              I specialize in architecting robust backend systems (Node.js, Express, FastAPI) integrated with modern 
+              frontends (React, TypeScript), implementing AI/ML solutions for document analysis, natural language 
+              processing, and business intelligence. My projects demonstrate proficiency in building secure authentication 
+              systems, RESTful APIs, database optimization (MySQL, MongoDB), and integrating cutting-edge AI technologies 
+              including RAG systems, multi-LLM orchestration, and automated content generation.
+            </motion.p>
+
+            <motion.p
+              initial={{ opacity: 0 }}
+              whileInView={{ opacity: 1 }}
+              viewport={{ once: true }}
+              transition={{ delay: 0.5, duration: 0.8 }}
               className="text-gray-300 mb-8"
             >
-              With hands-on experience from my internship at MashupStack and expertise in the MERN stack (MongoDB, 
-              Express.js, React.js, Node.js), I specialize in building user-friendly applications with robust backends. 
-              I'm also a Certified Ethical Hacker (EC-Council), combining security awareness with full-stack development 
-              skills to create secure, scalable, and data-driven solutions.
+              As a Certified Ethical Hacker (EC-Council), I bring a security-first mindset to development, ensuring 
+              applications are not only feature-rich but also secure and compliant. My experience includes building 
+              production-ready systems with features like JWT authentication, data encryption, input validation, and 
+              secure API design—creating solutions that are scalable, maintainable, and enterprise-ready.
             </motion.p>
 
             <motion.div
