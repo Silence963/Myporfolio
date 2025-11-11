@@ -25,7 +25,7 @@ export const About = () => {
                 <img
                   src={`${import.meta.env.BASE_URL}assets/images/profile.jpg`}
                   alt="Akhil A R"
-                  className="w-full h-full object-cover object-top"
+                  className="w-full h-full object-cover object-center scale-90"
                 />
               </div>
             </motion.div>
