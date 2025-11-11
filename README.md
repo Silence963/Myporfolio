@@ -93,4 +93,4 @@ MIT License - feel free to use this template for your own portfolio!
 Akhil A R
 - GitHub: [@akhilar](https://github.com/akhilar)
 - LinkedIn: [@akh1l](https://linkedin.com/in/akh1l/)
-- Email: akhilar@example.com 
+- Email: akhilar3733@gmail.com 
