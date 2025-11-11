@@ -92,7 +92,7 @@ const projects = [
       },
       {
         title: 'RQA',
-        description: 'Intelligent PDF analysis tool that evaluates research documents across multiple quality dimensions using AI-powered checks and deterministic analysis. Features content quality assessment, legal compliance, RAG optimization, hallucination/bias detection, plagiarism screening, grammar/readability analysis, and an overall readiness score (0-10) with actionable suggestions. Built with FastAPI, Groq API (Claude Sonnet 4.5), PyPDF2, language_tool_python, and React TypeScript frontend. Includes API key rotation, async processing, and real-time monitoring.',
+        description: '  Research Quality Analyzer Intelligent PDF analysis tool that evaluates research documents across multiple quality dimensions using AI-powered checks and deterministic analysis. Features content quality assessment, legal compliance, RAG optimization, hallucination/bias detection, plagiarism screening, grammar/readability analysis, and an overall readiness score (0-10) with actionable suggestions. Built with FastAPI, Groq API (Claude Sonnet 4.5), PyPDF2, language_tool_python, and React TypeScript frontend. Includes API key rotation, async processing, and real-time monitoring.',
         image: `${import.meta.env.BASE_URL}assets/images/rqa.jpg`,
         tags: ['FastAPI', 'Python', 'React', 'TypeScript', 'Groq', 'Claude', 'PyPDF2', 'NLP', 'Async', 'REST API'],
         github: '',

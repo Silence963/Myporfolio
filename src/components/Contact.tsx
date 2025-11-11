@@ -68,7 +68,7 @@ export const Contact = () => {
             transition={{ delay: 0.6, duration: 0.8 }}
             className="mt-12 text-gray-400"
           >
-            <p>Based in Bangalore, India</p>
+            <p>Based in Kerala, India</p>
             <p className="text-sm mt-2">Available for remote work worldwide</p>
           </motion.div>
         </motion.div>
