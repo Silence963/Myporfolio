@@ -54,7 +54,7 @@ export const About = () => {
               transition={{ delay: 0.2, duration: 0.8 }}
               className="text-gray-300 mb-6"
             >
-              I'm a Full Stack MERN Developer specializing in AI-powered web applications, with a Master's in <b>Computer 
+              I'm a Full Stack Developer specializing in AI-powered web applications, with a Master's in <b>Computer 
               Applications</b> from Jain University, Bangalore (2024) and <b> B.Sc in Physics With Computer Application </b> from Kerala University (2020). My expertise 
               lies at the intersection of modern web development, artificial intelligence, and data-driven solutions, 
               creating intelligent applications that solve real-world business challenges.
