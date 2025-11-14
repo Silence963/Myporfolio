@@ -4,7 +4,7 @@ import { Github } from 'lucide-react'
 const projects = [
   {
     title: 'URL Shortener ',
-    description: 'A user-friendly URL shortener with robust user management and data handling. Features include user signup/authentication, URL management, search functionality, and secure editing/deleting of URLs.',
+    description: 'An app that turns long website links into short, easy-to-share links. Users can create an account, save their shortened links, search through them, and edit or delete them anytime.',
     image: `${import.meta.env.BASE_URL}assets/images/url-shortener.jpg`,
     tags: ['React.js', 'Node.js', 'Express.js', 'MongoDB', 'JWT', 'Sessions'],
     github: 'https://github.com/Silence963',
@@ -12,7 +12,7 @@ const projects = [
   },
   {
     title: 'Business Intelligence',
-    description: 'AI-powered business intelligence web app (React + Node.js + MySQL) that generates Vendor Analysis, Industry Reports, and Trends Analysis. Integrates Groq, OpenAI, and Gemini LLMs with dynamic API key management, caching, structured JSON reports, and PDF export. Features vendor verification, auto-loading categories by city, trend extraction, multi-business profiling, and executive-style formatting. Built for fast, data-driven decision support with extensible architecture and professional UX.',
+    description: 'A smart business analysis tool that helps companies understand vendors, industry trends, and market insights. It automatically generates detailed reports with charts and data, and can export them as PDFs for presentations.',
     image: `${import.meta.env.BASE_URL}assets/images/business-ai.jpg`,
     tags: ['React', 'Node.js', 'MySQL', 'Groq', 'OpenAI', 'Gemini', 'PDF Export', 'LLM', 'Business Intelligence'],
     github: '',
@@ -20,7 +20,7 @@ const projects = [
   },
   {
     title: 'IPL Match Prediction System',
-    description: 'Machine learning web application for predicting IPL Cricket match outcomes using Random Forest, Decision Tree, and Linear Regression algorithms. Built with Django backend and MySQL database.',
+    description: 'A cricket match prediction app that analyzes team performance and statistics to predict the outcome of IPL matches. Users can see which team is likely to win based on historical data.',
     image: `${import.meta.env.BASE_URL}assets/images/ipl-prediction.jpg`,
     tags: ['Python', 'Django', 'MySQL', 'Machine Learning', 'Random Forest', 'Decision Tree'],
     github: 'https://github.com/Silence963',
@@ -28,7 +28,7 @@ const projects = [
   },
   {
     title: 'Project Management System',
-    description: 'Comprehensive software solution for managing projects developed as a final degree project. Enables efficient project tracking, task management, and team collaboration.',
+    description: 'A tool that helps teams organize their work by tracking projects, assigning tasks to team members, and monitoring progress. Everyone can see what needs to be done and collaborate effectively.',
     image: `${import.meta.env.BASE_URL}assets/images/project-management.jpg`,
     tags: ['PHP', 'HTML', 'MySQL', 'Project Management'],
     github: 'https://github.com/Silence963',
@@ -36,7 +36,7 @@ const projects = [
   },
   {
     title: 'S N College Mobile Application',
-    description: 'Mobile application developed as part of the ASAP (Additional Skill Acquisition Program). Provides students with easy access to college information, resources, and updates.',
+    description: 'A mobile app for college students to access campus information, news, resources, and important updates all in one place. Makes it easy to stay connected with college activities.',
     image: `${import.meta.env.BASE_URL}assets/images/college-app.jpg`,
     tags: ['Android Studio', 'Eclipse', 'Java', 'Mobile Development'],
     github: 'https://github.com/Silence963',
@@ -44,7 +44,7 @@ const projects = [
   },
     {
       title: 'Question & Answer Generation App',
-      description: 'A full-stack Q&A generation platform with React frontend and Node.js/Express backend. Features automatic question/answer generation via Ollama LLM API, voice recognition for hands-free topic input, and real-time updates with 5-second polling. RESTful APIs handle question generation, storage, and retrieval. Performance monitoring is enabled using Web Vitals.',
+      description: 'An app that automatically creates questions and answers on any topic you provide. You can speak your topic using voice input, and the app will generate relevant Q&As instantly for studying or teaching.',
       image: `${import.meta.env.BASE_URL}assets/images/qa-app.jpg`,
       tags: ['React', 'Node.js', 'Express', 'MySQL', 'Ollama API', 'Web Speech API', 'Axios', 'Web Vitals'],
       github: '',
@@ -52,7 +52,7 @@ const projects = [
     },
     {
       title: 'Multi-Portal News Scraping System',
-      description: 'Full-stack news aggregation platform with React admin dashboard to manage source URLs and trigger on-demand scrapes. Collects articles from multiple portals (e.g., Times of India Bangalore), deduplicates and filters content, stores structured data in MySQL, and offers optional AI-powered summarization, entity extraction, and classification for community leader identification and in-app notifications.',
+      description: 'A news collection tool that gathers articles from multiple news websites, removes duplicates, and organizes them in one place. It can summarize articles and identify important people mentioned in the news.',
       image: `${import.meta.env.BASE_URL}assets/images/news-scraper.jpg`,
       tags: ['React', 'Vite', 'Node.js', 'Express', 'Python', 'BeautifulSoup', 'Selenium', 'MySQL', 'WebDriver Manager', 'LLM'],
       github: '',
@@ -60,7 +60,7 @@ const projects = [
     },
     {
       title: 'Vendor Book Application',
-      description: 'Full-stack vendor management platform with React.js frontend and Node.js/Express backend. Features secure file upload, PDF report generation with PDFKit, and AI-powered business insights via Groq LLM. Supports vendor onboarding, analytics, and profile management. Implements authentication, CORS, and comprehensive testing.',
+      description: 'A vendor management system where businesses can store vendor information, upload documents, track performance, and generate professional reports. Helps companies maintain organized records of all their suppliers.',
       image: `${import.meta.env.BASE_URL}assets/images/vendor-book.jpg`,
       tags: ['React.js', 'Node.js', 'Express', 'MySQL', 'Multer', 'PDFKit', 'Groq LLM', 'CORS'],
       github: '',
@@ -68,7 +68,7 @@ const projects = [
     },
       {
         title: 'COMPA ',
-    description: `Compa is a Node.js/Express backend that tracks and compares competitor social media audience growth by scraping follower counts (Facebook, Instagram, LinkedIn) and storing them in MySQL. It provides REST APIs for competitor management, metric retrieval, and automated scraping jobs with resilient parsing and normalization.\n\nTech: Node.js, Express, MySQL, Selenium, ChromeDriver, dotenv, cors.\n\nFeatures: Automated follower extraction, competitor registration, clean versioned API, and optional AI integration endpoints.\n\nA robust backend for social media competitor analytics and automated data comparison.`,
+    description: 'A competitor tracking tool that monitors how many followers your competitors have on social media platforms like Facebook, Instagram, and LinkedIn. It collects this data regularly so you can see how your competition is growing.',
         image: `${import.meta.env.BASE_URL}assets/images/compa.jpg`,
         tags: ['Node.js', 'Express', 'MySQL', 'Selenium', 'ChromeDriver', 'dotenv', 'cors', 'LLM Ready'],
         github: '',
@@ -76,7 +76,7 @@ const projects = [
       },
       {
         title: 'REPA',
-        description: 'Intelligent reputation management platform that scrapes Google Maps reviews, caches historical data, performs sentiment & temporal trend analysis, and generates AI-driven summaries and response suggestions. Supports multi-LLM providers (OpenAI, Gemini, Groq, DeepSeek) with fallback logic, robust timestamp parsing, cache-first indicators, and secure, scalable Node.js + MySQL + Puppeteer architecture.',
+        description: 'A reputation management tool that collects and analyzes Google Maps reviews for businesses. It shows whether reviews are positive or negative, tracks trends over time, and suggests professional responses to customer feedback.',
         image: `${import.meta.env.BASE_URL}assets/images/repa.jpg`,
         tags: ['Node.js', 'Express', 'MySQL', 'Sequelize', 'Puppeteer', 'Sentiment', 'Natural', 'LLM', 'Caching', 'Analytics'],
         github: '',
@@ -84,7 +84,7 @@ const projects = [
       },
       {
         title: 'NL2SQL',
-        description: 'AI-powered web app that converts natural language questions into SQL queries using Groq\'s LLaMA 3 model, enabling non-technical users to query databases effortlessly. Features smart table detection with spaCy NLP and fuzzy matching, interactive query execution with formatted results, saved searches, AI-generated example libraries, and multi-context support for different users, firms, and departments.',
+        description: 'A tool that lets you ask questions about your data in plain English, and it automatically searches the database for answers. No need to know technical database languages—just ask naturally like you\'re talking to a person.',
         image: `${import.meta.env.BASE_URL}assets/images/nl2sql.jpg`,
         tags: ['FastAPI', 'Python', 'React', 'MySQL', 'spaCy', 'Groq', 'LLaMA 3', 'Material-UI', 'Vite', 'NLP'],
         github: '',
@@ -92,7 +92,7 @@ const projects = [
       },
       {
         title: 'RQA',
-        description: '  Research Quality Analyzer Intelligent PDF analysis tool that evaluates research documents across multiple quality dimensions using AI-powered checks and deterministic analysis. Features content quality assessment, legal compliance, RAG optimization, hallucination/bias detection, plagiarism screening, grammar/readability analysis, and an overall readiness score (0-10) with actionable suggestions. Built with FastAPI, Groq API (Claude Sonnet 4.5), PyPDF2, language_tool_python, and React TypeScript frontend. Includes API key rotation, async processing, and real-time monitoring.',
+        description: 'A research document analyzer that checks the quality of academic papers and reports. It examines grammar, readability, potential plagiarism, and content accuracy, then gives an overall quality score with suggestions for improvement.',
         image: `${import.meta.env.BASE_URL}assets/images/rqa.jpg`,
         tags: ['FastAPI', 'Python', 'React', 'TypeScript', 'Groq', 'Claude', 'PyPDF2', 'NLP', 'Async', 'REST API'],
         github: '',
