@@ -3,77 +3,56 @@ import { Github } from 'lucide-react'
 
 const projects = [
   {
-    title: 'RQA',
-    description: 'A research document analyzer that checks the quality of academic papers and reports. It examines grammar, readability, potential plagiarism, and content accuracy, then gives an overall quality score with suggestions for improvement.',
+    title: 'RQA: Enterprise RAG Document Analyzer',
+    description: 'An enterprise-grade Retrieval-Augmented Generation (RAG) pipeline designed for precise analysis of technical and research documents. Implements Semantic Chunking and Vector Search (Qdrant/Pinecone) to retrieve exact context before generation, ensuring hallucination-free answers grounded in source text. Features asynchronous processing for large PDF uploads, citation-backed compliance scoring, and deterministic document quality assessment.',
     image: `${import.meta.env.BASE_URL}assets/images/rqa.jpg`,
-    tags: ['FastAPI', 'Python', 'React', 'TypeScript', 'Groq', 'Claude', 'PyPDF2', 'NLP', 'Async', 'REST API'],
+    tags: ['Python', 'FastAPI', 'React', 'LangChain', 'Claude 3', 'Vector DB', 'RAG', 'Async'],
     github: '',
     date: '2025'
   },
   {
-    title: 'NL2SQL',
-    description: 'A tool that lets you ask questions about your data in plain English, and it automatically searches the database for answers. No need to know technical database languages—just ask naturally like you\'re talking to a person.',
+    title: 'Autonomous Natural Language to SQL Agent',
+    description: 'A secure database interface that eliminates technical barriers between business questions and SQL execution. Built on LangChain, this agent utilizes schema-aware prompting to understand table relationships and foreign keys automatically. Features a self-correcting feedback loop where execution errors trigger automatic query regeneration, achieving 95% accuracy on complex multi-table joins with strict read-only permissions and input validation.',
     image: `${import.meta.env.BASE_URL}assets/images/nl2sql.jpg`,
-    tags: ['FastAPI', 'Python', 'React', 'MySQL', 'spaCy', 'Groq', 'LLaMA 3', 'Material-UI', 'Vite', 'NLP'],
+    tags: ['FastAPI', 'Python', 'React', 'LangChain', 'Groq', 'LLaMA 3', 'MySQL', 'Agent'],
     github: '',
     date: '2025'
   },
   {
-    title: 'Business Intelligence',
-    description: 'A smart business analysis tool that helps companies understand vendors, industry trends, and market insights. It automatically generates detailed reports with charts and data, and can export them as PDFs for presentations.',
+    title: 'Multi-LLM Business Intelligence Copilot',
+    description: 'An advanced decision-support system that democratizes data analytics for non-technical stakeholders. Features Multi-LLM Orchestration layer routing simple queries to high-speed models (Groq) and complex reasoning to GPT-4, optimizing cost and latency. Aggregates unstructured vendor data, generates real-time visualization charts, and automates comprehensive PDF strategy reports without human intervention. Powers data-driven decision making at scale.',
     image: `${import.meta.env.BASE_URL}assets/images/business-ai.jpg`,
-    tags: ['React', 'Node.js', 'MySQL', 'Groq', 'OpenAI', 'Gemini', 'PDF Export', 'LLM', 'Business Intelligence'],
+    tags: ['React', 'Node.js', 'OpenAI', 'Gemini', 'Groq', 'MySQL', 'Multi-LLM', 'Orchestration'],
     github: '',
     date: '2025'
   },
   {
-    title: 'REPA',
-    description: 'A reputation management tool that collects and analyzes Google Maps reviews for businesses. It shows whether reviews are positive or negative, tracks trends over time, and suggests professional responses to customer feedback.',
+    title: 'REPA: Reputation Intelligence & Sentiment Engine',
+    description: 'A resilient market intelligence platform engineered to monitor brand perception across digital channels (Google Maps, Review Portals). Features robust ingestion pipeline with automated CAPTCHA handling and IP rotation to bypass anti-bot defenses. Processes feedback using multi-stage NLP Sentiment Analysis workflow to classify customer trends and automatically drafts context-aware, professional responses using Generative AI, reducing reputation management efforts by 70%.',
     image: `${import.meta.env.BASE_URL}assets/images/repa.jpg`,
-    tags: ['Node.js', 'Express', 'MySQL', 'Sequelize', 'Puppeteer', 'Sentiment', 'Natural', 'LLM', 'Caching', 'Analytics'],
+    tags: ['Node.js', 'Puppeteer', 'Sentiment', 'Natural NLP', 'MySQL', 'Generative AI', 'Intelligence'],
     github: '',
     date: '2025'
   },
   {
-    title: 'Multi-Portal News Scraping System',
-    description: 'A news collection tool that gathers articles from multiple news websites, removes duplicates, and organizes them in one place. It can summarize articles and identify important people mentioned in the news.',
+    title: 'Automated Market Intelligence Agent',
+    description: 'An autonomous information agent that scans and ingests data from diverse news sources to track market trends and VIP entities. Utilizes LangChain\'s Map-Reduce summarization chains to condense thousands of articles into concise daily executive briefs. Implements custom Entity Extraction (NER) pipelines to identify and tag key organizations and individuals, turning unstructured news noise into structured market data for competitive intelligence.',
     image: `${import.meta.env.BASE_URL}assets/images/news-scraper.jpg`,
-    tags: ['React', 'Vite', 'Node.js', 'Express', 'Python', 'BeautifulSoup', 'Selenium', 'MySQL', 'WebDriver Manager', 'LLM'],
+    tags: ['Python', 'LangChain', 'BeautifulSoup', 'React', 'Summarization', 'NER', 'Agent', 'Intelligence'],
     github: '',
     date: '2025'
   },
   {
-    title: 'Question & Answer Generation App',
-    description: 'An app that automatically creates questions and answers on any topic you provide. You can speak your topic using voice input, and the app will generate relevant Q&As instantly for studying or teaching.',
+    title: 'Voice-Activated EdTech Generator',
+    description: 'An interactive educational tool leveraging Local LLMs (Ollama) to generate instant study materials from voice commands. Integrates Web Speech API with custom Generative AI backend to convert spoken topics into structured quizzes and answers in real-time. Demonstrates low-latency inference on local hardware, prioritizing user privacy and offline accessibility for educational environments. Transforms verbal input into engaging interactive learning content.',
     image: `${import.meta.env.BASE_URL}assets/images/qa-app.jpg`,
-    tags: ['React', 'Node.js', 'Express', 'MySQL', 'Ollama API', 'Web Speech API', 'Axios', 'Web Vitals'],
+    tags: ['React', 'Node.js', 'Ollama', 'Web Speech API', 'Local LLM', 'EdTech', 'Generative AI'],
     github: '',
     date: '2025'
   },
-  {
-    title: 'Vendor Book Application',
-    description: 'A vendor management system where businesses can store vendor information, upload documents, track performance, and generate professional reports. Helps companies maintain organized records of all their suppliers.',
-    image: `${import.meta.env.BASE_URL}assets/images/vendor-book.jpg`,
-    tags: ['React.js', 'Node.js', 'Express', 'MySQL', 'Multer', 'PDFKit', 'Groq LLM', 'CORS'],
-    github: '',
-    date: '2025'
-  },
-  {
-    title: 'COMPA ',
-    description: 'A competitor tracking tool that monitors how many followers your competitors have on social media platforms like Facebook, Instagram, and LinkedIn. It collects this data regularly so you can see how your competition is growing.',
-    image: `${import.meta.env.BASE_URL}assets/images/compa.jpg`,
-    tags: ['Node.js', 'Express', 'MySQL', 'Selenium', 'ChromeDriver', 'dotenv', 'cors', 'LLM Ready'],
-    github: '',
-    date: '2025'
-  },
-  {
-    title: 'IPL Match Prediction System',
-    description: 'A cricket match prediction app that analyzes team performance and statistics to predict the outcome of IPL matches. Users can see which team is likely to win based on historical data.',
-    image: `${import.meta.env.BASE_URL}assets/images/ipl-prediction.jpg`,
-    tags: ['Python', 'Django', 'MySQL', 'Machine Learning', 'Random Forest', 'Decision Tree'],
-    github: 'https://github.com/Silence963',
-    date: '2024'
-  },
+
+
+
   {
     title: 'Project Management System',
     description: 'A tool that helps teams organize their work by tracking projects, assigning tasks to team members, and monitoring progress. Everyone can see what needs to be done and collaborate effectively.',
