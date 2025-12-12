@@ -54,10 +54,10 @@ export const About = () => {
               transition={{ delay: 0.2, duration: 0.8 }}
               className="text-gray-300 mb-6"
             >
-              I'm a Full Stack Developer specializing in AI-powered web applications, with a Master's in <b>Computer 
-              Applications</b> from Jain University, Bangalore (2024) and <b> B.Sc in Physics With Computer Application </b> from Kerala University (2020). My expertise 
-              lies at the intersection of modern web development, artificial intelligence, and data-driven solutions, 
-              creating intelligent applications that solve real-world business challenges.
+              Hey, I’m Akhil—an AI Engineer and full-stack developer who loves turning messy, real-world problems into
+              reliable, production-ready products. I blend web engineering with advanced AI (LLM orchestration and RAG)
+              to ship systems that feel fast, secure, and genuinely helpful. I hold an MCA from Jain University
+              (Bangalore, 2024) and a B.Sc in Physics with Computer Application (Kerala University, 2020).
             </motion.p>
 
             <motion.p
@@ -67,7 +67,9 @@ export const About = () => {
               transition={{ delay: 0.25, duration: 0.8 }}
               className="text-gray-300 mb-6"
             >
-              <b>Currently working as Intern Software Developer at Myblocks, Ernakulam</b> (joined June 2025), where I contribute to innovative software solutions and collaborate with a dynamic team to deliver impactful products.
+              <b>Currently working as Intern Software Developer at Myblocks, Ernakulam</b> (since June 2025), I build
+              AI-first features, tighten backend reliability, and collaborate with product teams to deliver impact that
+              customers can feel.
             </motion.p>
 
             <motion.p
@@ -77,11 +79,9 @@ export const About = () => {
               transition={{ delay: 0.3, duration: 0.8 }}
               className="text-gray-300 mb-6"
             >
-              Through hands-on experience from my internship at Myblocks and numerous projects, I've developed 
-              comprehensive expertise in building enterprise-grade applications. My work spans AI-powered business 
-              intelligence platforms integrating multiple LLMs (OpenAI, Gemini, Groq, Claude), intelligent data 
-              processing systems with NLP and sentiment analysis, and scalable full-stack solutions handling real-time 
-              data processing and complex user workflows.
+              I’ve led and built AI-powered business intelligence tools, multi-LLM orchestration pipelines (OpenAI,
+              Gemini, Groq, Claude), NLP/sentiment systems, and data-rich web apps that stay responsive under load.
+              Security is baked in from day one: auth, validation, and sensible defaults before features ship.
             </motion.p>
 
             <motion.p
@@ -91,11 +91,14 @@ export const About = () => {
               transition={{ delay: 0.4, duration: 0.8 }}
               className="text-gray-300 mb-6"
             >
-              I specialize in architecting robust backend systems (Node.js, Express, FastAPI) integrated with modern 
-              frontends (React, TypeScript), implementing AI/ML solutions for document analysis, natural language 
-              processing, and business intelligence. My projects demonstrate proficiency in building secure authentication 
-              systems, RESTful APIs, database optimization (MySQL, MongoDB), and integrating cutting-edge AI technologies 
-              including RAG systems, multi-LLM orchestration, and automated content generation.
+              What I bring to your team:
+              <ul className="list-disc list-inside space-y-2 mt-3 text-gray-300">
+                <li><b>LLM orchestration & RAG:</b> Build multi-LLM flows with retrieval, grounding, and guardrails for accuracy.</li>
+                <li><b>Full-stack delivery:</b> FastAPI/Node.js backends with React/TypeScript frontends that are responsive and clean.</li>
+                <li><b>Data & performance:</b> MySQL/MongoDB schema design, indexing, caching, and async pipelines to keep apps snappy.</li>
+                <li><b>Security first:</b> JWT/session auth, validation, encryption, CORS/hardening—CEH-certified mindset applied to builds.</li>
+                <li><b>NLP & analytics:</b> Summarization, sentiment, entity extraction, and reporting that surface insights instead of noise.</li>
+              </ul>
             </motion.p>
 
             <motion.p
@@ -105,10 +108,8 @@ export const About = () => {
               transition={{ delay: 0.5, duration: 0.8 }}
               className="text-gray-300 mb-8"
             >
-              As a Certified Ethical Hacker (EC-Council), I bring a security-first mindset to development, ensuring 
-              applications are not only feature-rich but also secure and compliant. My experience includes building 
-              production-ready systems with features like JWT authentication, data encryption, input validation, and 
-              secure API design—creating solutions that are scalable, maintainable, and enterprise-ready.
+              Let’s build something people actually want to use. If you need an AI engineer who ships secure, production
+              grade products—and who can explain the why as clearly as the how—let’s talk.
             </motion.p>
 
             <motion.div
